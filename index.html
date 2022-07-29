@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .fundo{
+      width: 800px;
+      height: 200px;
+      background-color: rgba(231, 241, 253, 0.925);
+      margin: 0%;
+      left: 7%;
+      top: 8%;
+      padding: 12%;
+      position: absolute; 
+      justify-content: center;
+      box-shadow: 0 0 1em rgba(0, 0, 0, 0.553);
+    }
+    body{
+      overflow: hidden;
+      background-color: #151515;
+
+    }
+
+    .fundpequeno{
+    width: 235px;
+    height: 350px;
+    background-color: #ffffff;
+    padding: 2px;
+    border: 1px solid #f5f1f1; 
+    border-bottom: none;
+    left: 43%; 
+    margin-top: 8%;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.742);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .fundpequeno:hover{
+    transition: all 2,5s;
+    color:rgba(3, 0, 192, 0.913);
+    }
+
+
+
+    div{
+      display: flex;
+      left: 1%;
+      
+    }
+    .divimg{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      right: 40%;
+      cursor: pointer;
+    }
+    .img2{
+      width: 220px;
+      height: 230px;
+      left: 549px;
+      top: 120px;
+      position:absolute;
+      border-radius: 8px;
+    }
+    .texto{
+      margin-top: 27%;
+      font-size: 11px;
+      color: #8989899c;
+      margin-left: 44%;
+      position: absolute;
+      display: flex;
+      margin-top: 31%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: 8px;
+      
+    }
+    .paragraf{
+      margin-top: 28%;
+      margin-left: 45%;
+      position: relative;
+      display: flex;
+      font-family: 'Outfit', sans-serif;
+
+    }
+    .attribution{
+      margin-top: 15%;
+      margin-left: 44%;
+      color: #000000;
+    }
+  </style>
+</head>
+<body background="/images/fundotudo.png">
+  
+
+  <div>
+  <div class="fundo"></div>
+  </div>
+
+
+  <div class="fundpequeno"></div>
+
+  <div class="divimg">
+  <img class="img2" src="/images/image-qr-code.png">
+  </div>
+
+  
+  <div class="texto">
+  Scan the QR code to visit Frontend <br>Mentor and take your coding skills to <br>
+   the next level
+</div>
+
+<p class="paragraf"><b>Improve your front-end <br>skills by building projects</b></p>
+
+
+
+  <div class="attribution">
+    <b>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</b> 
+    <b>Coded by</b> <a href="#"><b>JRDEVELOPER</b></a>.
+  </div>
+</div>
+</body>
+</html>
